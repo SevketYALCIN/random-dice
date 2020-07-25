@@ -19,8 +19,12 @@ function App() {
   }
 
   let getRand = () => {
-    if(values.length > 0)
-      setRandom(rand(max))
+    if(values.length > 0) {
+      setRandom(null)
+      setTimeout(() => {
+        setRandom(rand(max))
+      }, 100);
+    }
   }
 
   return (
