@@ -1,4 +1,4 @@
-🚀 Dynamic random generator
+🚀 Dynamic random generator: https://random-sev.netlify.app/
 
 - Simply add options
 - Get a random result
